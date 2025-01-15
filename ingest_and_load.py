@@ -29,7 +29,7 @@ RESPONSES_TOPIC = "responses"
 RENDERS_TOPIC = "renders"
 GROUP_ID = "ingest_and_cache_group"
 
-FLUSH_INTERVAL_SECONDS = 30  # flush every 2 minutes
+FLUSH_INTERVAL_SECONDS = 30  # flush every 30 seconds
 RENDER_TIMEOUT_SECONDS = 60   # 60s from bid_time for a won bid with no render
 
 cache = {}
