@@ -9,7 +9,7 @@ from confluent_kafka import Producer
 
 KAFKA_CONFIG = {
     'bootstrap.servers': 'localhost:9092',
-    # Tweak settings (compression, acks, batching, etc.) for production as needed.
+    'queue.buffering.max.messages': 500000
 }
 
 BIDS_PER_SECOND = 150000       # Number of bids to generate each second
